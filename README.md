@@ -2,14 +2,14 @@
 
 A lightweight business records management UI built with TypeScript and React. This repository currently contains an early scaffold: a records page that renders a paginated records table.
 
-> Status: early work-in-progress. The table rendering and data layer are not yet implemented — components are stubs.
+> Status: early work-in-progress. The table rendering and data layer are not yet implemented. Components are stubs.
 
-## Tech Stack
+## Tech stack
 
-- **TypeScript**
-- **React** (function components, `.tsx`)
+- TypeScript
+- React (function components, `.tsx`)
 
-## Project Structure
+## Project structure
 
 ```
 src/
@@ -20,7 +20,7 @@ src/
     index.ts          # Shared constants (e.g. ROWS_PER_PAGE = 10)
 ```
 
-## Getting Started
+## Getting started
 
 This repo does not yet include a build setup (no `package.json`). To run it, drop the components into a React + TypeScript project. For a fresh start with Vite:
 
